@@ -13,7 +13,7 @@ exec -l. zsh
 
 ### 2. Create a new conda environment with the scijava-jupyter-kernel library 
 
-The library provides a JupyterLab kernel with Java
+The library provides a JupyterLab kernel with Java. Official documentation and the source code of the library that enables the use of Java in a jupyter notebook can be found here https://github.com/scijava/scijava-jupyter-kernel.
 
 ```
 conda create --name java  scijava-jupyter-kernel -y
